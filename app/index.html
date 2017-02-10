@@ -1,120 +1,192 @@
 <!doctype html>
 <html class="no-js" lang="">
-  <head>
-    <meta charset="utf-8">
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>wisp e</title>
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>wisp e</title>
 
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    <!-- Place favicon.ico in the root directory -->
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <!-- Place favicon.ico in the root directory -->
 
-    <!-- build:css styles/vendor.css -->
-    <!-- bower:css -->
-    <!-- endbower -->
-    <!-- endbuild -->
+  <!-- build:css styles/vendor.css -->
+  <!-- bower:css -->
+  <!-- endbower -->
+  <!-- endbuild -->
 
-    <!-- build:css styles/main.css -->
-    <link rel="stylesheet" href="styles/main.css">
-    <!-- endbuild -->
+  <!-- build:css styles/main.css -->
+  <link rel="stylesheet" href="styles/main.css">
+  <!-- endbuild -->
 
-    <!-- build:js scripts/vendor/modernizr.js -->
-    <script src="/bower_components/modernizr/modernizr.js"></script>
-    <!-- endbuild -->
-  </head>
-  <body>
-    <!--[if lt IE 10]>
-      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
+  <!-- build:js scripts/vendor/modernizr.js -->
+  <script src="/bower_components/modernizr/modernizr.js"></script>
+  <!-- endbuild -->
+</head>
+<body>
+  <!--[if lt IE 10]>
+  <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
 
-    <div class="container-fluid hero">
+  <div class="container-fluid hero hero__bg">
+    <div class="container">
       <div class="row">
-        <div class="col-sm-12">
+        <div class="col-lg-4 offset-lg-4 col-md-6 offset-md-3 text-center">
+          <h1>wisp-e</h1>
+          <p>
+            A happy little pet for your inbox.
+          </p>
 
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-4 offset-sm-4 text-center">
-                <h1>wisp-e</h1>
-                <p>
-                  A happy little pet for your inbox.
-                </p>
+          <p>
+            Want a wisp-e?<br />
+            Fill out the quick form below and we’ll send one right to you.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
 
-                <p>
-                  Want a wisp-e?<br />
-                  Fill out the quick form below and we’ll send one right to you.
-                </p>
+  <div class="hero__bg lh-0">
+    <svg width="100%" height="20" preserveAspectRatio="xMinYMax meet">
+      <pattern id="pattern" x="0" y="0" width="120" height="20" patternUnits="userSpaceOnUse">
+        <path d="M0,20V8.5c20.4-11.3,39.6-11.3,60,0s39.6,11.3,60,0V20" fill="white" />
+      </pattern>
+      <rect x="0" y="0" width="100%" height="20" fill="url(#pattern)" />
+    </svg>
+  </div>
+
+  <div class="container">
+
+    <div class="row">
+      <div class="col-lg-4 offset-lg-4 col-md-6 offset-md-3">
+
+        <form method="post" class="wisp-e-form" accept-charset="UTF-8" action="https://www.aweber.com/scripts/addlead.pl"  >
+          <div style="display: none;">
+            <input type="hidden" name="meta_web_form_id" value="634395754" />
+            <input type="hidden" name="meta_split_id" value="" />
+            <input type="hidden" name="listname" value="awlist4579880" />
+            <input type="hidden" name="redirect" value="https://www.aweber.com/thankyou.htm?m=default" id="redirect_34362e93d2319844a8c3360d02f19a45" />
+
+            <input type="hidden" name="meta_adtracking" value="wisp-e_homepage" />
+            <input type="hidden" name="meta_message" value="1" />
+            <input type="hidden" name="meta_required" value="custom Wisp-e,email,custom Active During" />
+
+            <input type="hidden" name="meta_tooltip" value="" />
+          </div>
+          <div id="af-body-634395754" class="af-body af-standards">
+            <div class="af-element">
+              <label class="previewLabel" for="awf_field-88963350">What's your wispy's name?</label>
+              <div class="af-textWrap">
+                <input type="text" id="awf_field-88963350" class="text" name="custom Wisp-e" value=""  onfocus=" if (this.value == '') { this.value = ''; }" onblur="if (this.value == '') { this.value='';} " tabindex="500" />
               </div>
+              <div class="af-clear"></div>
+            </div>
+
+            <div class="af-radio">
+              <div>
+                <label class="previewLabel" for="awf_field-889633520">When is your wispy awake?</label>
+                <div class="choiceList choiceList-radio-inline">
+                  <div class="af-element-radio multiChoice">
+                    <input class="radio" type="radio" id="awf_field-889633520" name="custom Active During"  value="Day" tabindex="501" />
+                    <label class="choice radio--day" for="awf_field-889633520"><img src="images/sun.svg" alt="During the day" /></label>
+                    <input type="hidden" name="tagif_custom Active During:Day" value="diurnal">
+                  </div>
+                  <div class="af-element-radio multiChoice">
+                    <input class="radio" type="radio" id="awf_field-889633521" name="custom Active During"  value="Night" tabindex="502" />
+                    <label class="choice radio--night" for="awf_field-889633521"><img src="images/moon.svg" alt="At night" /></label>
+                    <input type="hidden" name="tagif_custom Active During:Night" value="nocturnal">
+                  </div>
+                </div>
+              </div>
+              <div class="af-clear"></div>
+            </div>
+
+            <div class="af-element">
+              <label class="previewLabel" for="awf_field-88963351">What email should we deliver your wispy to?</label>
+              <div class="af-textWrap"><input class="text" id="awf_field-88963351" type="text" name="email" value="" tabindex="503" onfocus=" if (this.value == '') { this.value = ''; }" onblur="if (this.value == '') { this.value='';} " />
+              </div>
+              <div class="af-clear"></div>
+            </div>
+
+            <div class="text-center">
+              <input name="submit" class="btn btn-wisp-e" id="af-submit-image-634395754" type="submit" value="Send me a wispy!" tabindex="504" />
+              <div class="af-clear"></div>
+            </div>
+            <div class="text-center">
+              <p>We respect your <a title="Privacy Policy" href="https://www.aweber.com/permission.htm" target="_blank" rel="nofollow">email privacy</a></p>
+              <div class="af-clear"></div>
+            </div>
+            <div class="text-center">
+              <p><a href="https://www.aweber.com" title="AWeber Email Marketing" target="_blank" rel="nofollow">Powered by AWeber Email Marketing</a></p>
+              <div class="af-clear"></div>
             </div>
           </div>
-        </div>
+          <div style="display: none;">
+            <img src="https://forms.aweber.com/form/displays.htm?id=bMwszJys7Kws" alt="" />
+          </div>
+        </form>
+
       </div>
     </div>
 
+  </div>
+
+  <div class="footer__bg lh-0">
+    <svg width="100%" height="20" preserveAspectRatio="xMinYMax meet">
+      <pattern id="pattern2" x="0" y="0" width="120" height="20" patternUnits="userSpaceOnUse">
+        <polygon points="30,3.5 60,11.5 90,19.5 120,11.5 120,0 60,0 0,0 0,11.5" fill="white" />
+      </pattern>
+      <rect x="0" y="0" width="100%" height="20" fill="url(#pattern2)" />
+    </svg>
+  </div>
+
+  <div class="container-fluid footer footer__bg">
     <div class="container">
-
-      <div class="jumbotron">
-        <h1>'Allo, 'Allo!</h1>
-        <p class="lead">Always a pleasure scaffolding your apps.</p>
-        <p><a class="btn btn-lg btn-success" href="#">Splendid!</a></p>
-      </div>
-
-      <div class="row marketing">
-        <div class="col-lg-6">
-          <h4>HTML5 Boilerplate</h4>
-          <p>HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.</p>
-
-          <h4>Sass</h4>
-          <p>Sass is the most mature, stable, and powerful professional grade CSS extension language in the world.</p>
-
-          <h4>Bootstrap</h4>
-          <p>Sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development.</p>
-
-          <h4>Modernizr</h4>
-          <p>Modernizr is an open-source JavaScript library that helps you build the next generation of HTML5 and CSS3-powered websites.</p>
+      <div class="row">
+        <div class="col-lg-4 offset-lg-4 col-md-6 offset-md-3 text-center">
+          <p>
+            👋 Later! &nbsp;&nbsp;
+          </p>
         </div>
       </div>
-
-      <div class="footer">
-        <p>♥ from the Yeoman team</p>
-      </div>
     </div>
+  </div>
 
-    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-    <script>
-      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-      e.src='https://www.google-analytics.com/analytics.js';
-      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-      ga('create','UA-XXXXX-X');ga('send','pageview');
-    </script>
+<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+<script>
+(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+  function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+  e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+  e.src='https://www.google-analytics.com/analytics.js';
+  r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+  ga('create','UA-XXXXX-X');ga('send','pageview');
+  </script>
 
-    <!-- build:js scripts/vendor.js -->
-    <!-- bower:js -->
-    <script src="/bower_components/jquery/dist/jquery.js"></script>
-    <script src="/bower_components/modernizr/modernizr.js"></script>
-    <script src="/bower_components/tether/dist/js/tether.js"></script>
-    <script src="/bower_components/bootstrap/dist/js/bootstrap.js"></script>
-    <!-- endbower -->
-    <!-- endbuild -->
+  <!-- build:js scripts/vendor.js -->
+  <!-- bower:js -->
+  <script src="/bower_components/jquery/dist/jquery.js"></script>
+  <script src="/bower_components/modernizr/modernizr.js"></script>
+  <script src="/bower_components/tether/dist/js/tether.js"></script>
+  <script src="/bower_components/bootstrap/dist/js/bootstrap.js"></script>
+  <!-- endbower -->
+  <!-- endbuild -->
 
-    <!-- build:js scripts/plugins.js -->
-    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/affix.js"></script>
-    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/alert.js"></script>
-    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/dropdown.js"></script>
-    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tooltip.js"></script>
-    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/modal.js"></script>
-    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/transition.js"></script>
-    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/button.js"></script>
-    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/popover.js"></script>
-    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/carousel.js"></script>
-    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/scrollspy.js"></script>
-    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/collapse.js"></script>
-    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tab.js"></script>
-    <!-- endbuild -->
+  <!-- build:js scripts/plugins.js -->
+  <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/affix.js"></script>
+  <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/alert.js"></script>
+  <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/dropdown.js"></script>
+  <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tooltip.js"></script>
+  <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/modal.js"></script>
+  <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/transition.js"></script>
+  <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/button.js"></script>
+  <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/popover.js"></script>
+  <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/carousel.js"></script>
+  <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/scrollspy.js"></script>
+  <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/collapse.js"></script>
+  <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tab.js"></script>
+  <!-- endbuild -->
 
-    <!-- build:js scripts/main.js -->
-    <script src="scripts/main.js"></script>
-    <!-- endbuild -->
-  </body>
+  <!-- build:js scripts/main.js -->
+  <script src="scripts/main.js"></script>
+  <!-- endbuild -->
+</body>
 </html>

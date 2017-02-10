@@ -1,0 +1,18 @@
+.btn {
+  &.btn-wisp-e {
+    background: $yellow-500;
+    color: $blue-100;
+    cursor: pointer;
+    display: block;
+    font-family: 'Quicksand', arial, sans-serif;
+    font-weight: 600;
+    margin-bottom: 30px;
+    padding: 18px;
+    text-transform: uppercase;
+    width: 100%;
+
+    &:hover {
+      background: darken($yellow-500, 10%);
+    }
+  }
+}
