@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400|Quicksand:600');
+
+body {
+  color: $blue-300;
+  font-family: 'Open Sans', arial, sans-serif;
+  font-size: $base-font-size;
+  font-weight: 400;
+  line-height: $base-line-height;
+}
+
+h1 {
+  font-family: 'Quicksand', arial, sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 18px;
+}
