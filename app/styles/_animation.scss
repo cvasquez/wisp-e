@@ -1,0 +1,25 @@
+.waver {
+  animation: handwave 4s ease infinite;
+  display: inline-block;
+}
+
+@keyframes handwave {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(-15deg);
+  }
+  20% {
+    transform: rotate(15deg);
+  }
+  30% {
+    transform: rotate(-15deg);
+  }
+  40% {
+    transform: rotate(15deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+}
